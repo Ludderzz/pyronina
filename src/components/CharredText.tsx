@@ -1,5 +1,4 @@
-import { ReactNode } from "react";
-
+import { type ReactNode } from "react";
 export const CharredText = ({ children, size = "1rem", isHeader = false }: { children: ReactNode; size?: string; isHeader?: boolean }) => (
   <span style={{
     fontSize: size,

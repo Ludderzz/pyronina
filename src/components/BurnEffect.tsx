@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 export const BurnEffect = ({ children, delay = 0 }: { children: ReactNode; delay?: number }) => (
   <motion.div

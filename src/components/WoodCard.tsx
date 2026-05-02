@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
-import { ReactNode } from "react";
-
+import { type ReactNode } from "react";
 export const WoodCard = ({ children }: { children: ReactNode }) => {
   const triggerSparks = (e: React.MouseEvent) => {
     confetti({

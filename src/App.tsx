@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ExternalLink, Info } from "lucide-react"; 
+import { ExternalLink } from "lucide-react";
 import { WoodCard } from "./components/WoodCard";
 import { BurnEffect } from "./components/BurnEffect";
 import artworkData from "./data.json";
